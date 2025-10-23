@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,10 +16,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">BH</span>
-              </div>
+            <div className="flex items-center space-x-3">
+              <img src={logo} alt="BH Caçamba" className="w-12 h-12" />
               <span className="font-bold text-xl">BH Caçamba</span>
             </div>
             <p className="text-white/70 text-sm">
