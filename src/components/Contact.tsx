@@ -60,17 +60,17 @@ const Contact = () => {
                   <div>
                     <h4 className="text-white font-semibold mb-1">Telefone</h4>
                     <a
-                      href="tel:+551133718116"
+                      href="tel:+553133718116"
                       className="text-white/80 hover:text-primary transition-colors"
                     >
-                      (11) 3371-8116
+                      (31) 3371-8116
                     </a>
                     <br />
                     <a
-                      href="tel:+5511995818126"
+                      href="tel:+553199581812"
                       className="text-white/80 hover:text-primary transition-colors"
                     >
-                      (11) 99581-8126
+                      (31) 99581-812
                     </a>
                   </div>
                 </div>
