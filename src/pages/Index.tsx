@@ -1,13 +1,43 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from 'react-helmet';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import About from '@/components/About';
+import Contact from '@/components/Contact';
+import Location from '@/components/Location';
+import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <html lang="pt-BR" />
+        <title>Landing Page Profissional | Serviços de Qualidade</title>
+        <meta
+          name="description"
+          content="Oferecemos serviços especializados com qualidade, agilidade e compromisso. Entre em contato e conheça nossas soluções profissionais."
+        />
+        <meta
+          name="keywords"
+          content="serviços profissionais, qualidade, atendimento, soluções, Belo Horizonte"
+        />
+        <link rel="canonical" href="https://landingpro.com.br" />
+      </Helmet>
+
+      <div className="min-h-screen">
+        <Header />
+        <main>
+          <Hero />
+          <Services />
+          <About />
+          <Contact />
+          <Location />
+        </main>
+        <Footer />
+        <WhatsAppButton />
       </div>
-    </div>
+    </>
   );
 };
 
