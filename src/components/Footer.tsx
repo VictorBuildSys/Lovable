@@ -59,13 +59,13 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <a href="tel:+553133718116" className="hover:text-primary transition-colors">
-                  (31) 3371-8116
+                  (31) 3371-8126
                 </a>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+553199581812" className="hover:text-primary transition-colors">
-                  (31) 99581-812
+                <a href="tel:+5531995818126" className="hover:text-primary transition-colors">
+                  (31) 99581-8126
                 </a>
               </li>
               <li className="flex items-center space-x-2">
@@ -74,7 +74,7 @@ const Footer = () => {
                   href="mailto:contato@landingpro.com.br"
                   className="hover:text-primary transition-colors"
                 >
-                  contato@landingpro.com.br
+                  contato@bhcacamba.com.br
                 </a>
               </li>
             </ul>

@@ -13,14 +13,14 @@ const Index = () => {
     <>
       <Helmet>
         <html lang="pt-BR" />
-        <title>Landing Page Profissional | Serviços de Qualidade</title>
+        <title>BH Caçambas  | Serviços de Qualidade</title>
         <meta
           name="description"
           content="Oferecemos serviços especializados com qualidade, agilidade e compromisso. Entre em contato e conheça nossas soluções profissionais."
         />
         <meta
           name="keywords"
-          content="serviços profissionais, qualidade, atendimento, soluções, Belo Horizonte"
+          content="BH Caçambas ,BH Caçamba,Caçambas BH serviços profissionais, qualidade, atendimento, soluções, Belo Horizonte"
         />
         <link rel="canonical" href="https://landingpro.com.br" />
       </Helmet>

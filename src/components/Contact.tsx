@@ -60,17 +60,17 @@ const Contact = () => {
                   <div>
                     <h4 className="text-white font-semibold mb-1">Telefone</h4>
                     <a
-                      href="tel:+553133718116"
+                      href="tel:+553133718126"
                       className="text-white/80 hover:text-primary transition-colors"
                     >
-                      (31) 3371-8116
+                      (31) 3371-8126
                     </a>
                     <br />
                     <a
-                      href="tel:+553199581812"
+                      href="tel:+5531995818126"
                       className="text-white/80 hover:text-primary transition-colors"
                     >
-                      (31) 99581-812
+                      (31) 99581-8126
                     </a>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                       href="mailto:contato@landingpro.com.br"
                       className="text-white/80 hover:text-primary transition-colors"
                     >
-                      contato@landingpro.com.br
+                      contato@bhcacamba.com.br
                     </a>
                   </div>
                 </div>

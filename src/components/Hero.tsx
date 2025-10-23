@@ -53,9 +53,9 @@ const Hero = () => {
               asChild
               className="text-lg"
             >
-              <a href="tel:+551133718116">
+              <a href="tel:+551133718126">
                 <Phone className="mr-2" />
-                (11) 3371-8116
+                (31) 3371-8126
               </a>
             </Button>
           </div>
