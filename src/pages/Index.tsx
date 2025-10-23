@@ -13,16 +13,16 @@ const Index = () => {
     <>
       <Helmet>
         <html lang="pt-BR" />
-        <title>BH Caçambas  | Serviços de Qualidade</title>
+        <title>BH Caçambas  | Locação de caçambas em Belo Horizonte</title>
         <meta
           name="description"
-          content="Oferecemos serviços especializados com qualidade, agilidade e compromisso. Entre em contato e conheça nossas soluções profissionais."
+          content="Locação de caçambas em Belo Horizonte"
         />
         <meta
           name="keywords"
-          content="BH Caçambas ,BH Caçamba,Caçambas BH serviços profissionais, qualidade, atendimento, soluções, Belo Horizonte"
+          content="BH Caçambas ,BH Caçamba,Caçambas BH, Locação de caçambas em Belo Horizonte, serviços profissionais, qualidade, atendimento, soluções, Belo Horizonte"
         />
-        <link rel="canonical" href="https://landingpro.com.br" />
+        <link rel="canonical" href="https://bhcacamba.com.br" />
       </Helmet>
 
       <div className="min-h-screen">

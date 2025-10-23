@@ -30,12 +30,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Soluções Profissionais
-            <span className="block text-primary-foreground">com Qualidade</span>
+            BH Caçamba            
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl">
-            Oferecemos serviços especializados com agilidade, compromisso e
-            resultados que superam expectativas.
+            Aluguel de Caçambas em Belo Horizonte
+            
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button
