@@ -71,7 +71,7 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
                 <a
-                  href="mailto:contato@landingpro.com.br"
+                  href="mailto:contato@bhcaçamba.com.br"
                   className="hover:text-primary transition-colors"
                 >
                   contato@bhcacamba.com.br
