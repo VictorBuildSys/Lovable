@@ -20,7 +20,7 @@ const Contact = () => {
     
     // Criar mensagem para WhatsApp
     const whatsappMessage = `Olá! Gostaria de solicitar um orçamento.%0A%0ANome: ${formData.name}%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}%0AMensagem: ${formData.message}`;
-    const whatsappNumber = "5531999588126";
+    const whatsappNumber = "5531995818126";
     
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank");
     
@@ -161,7 +161,7 @@ const Contact = () => {
                   Resposta em até 24 horas. Entre em contato agora e receba seu orçamento!
                 </p>
                 <a
-                  href="https://wa.me/5531999588126"
+                  href="https://wa.me/5531995818126"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
