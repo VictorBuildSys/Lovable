@@ -1,109 +1,135 @@
-import { Facebook, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
-import logo from '@/assets/logo.png';
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
-  const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  ];
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
-    <footer className="bg-dark-bg text-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* Brand */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img src={logo} alt="BH Caçamba" className="w-12 h-12" />
-              <span className="font-bold text-xl">BH Caçamba</span>
-            </div>
-            <p className="text-white/70 text-sm">
-              Oferecendo soluções profissionais com qualidade e compromisso.
+    <footer className="bg-accent text-accent-foreground">
+      <div className="container-custom px-4 md:px-8 py-12 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">BH Caçamba</h3>
+            <p className="text-accent-foreground/80 text-sm mb-4">
+              Mais de 30 anos oferecendo soluções em aluguel de caçambas e gerenciamento de resíduos
+              em Belo Horizonte.
             </p>
+            <div className="flex flex-col gap-2 text-sm">
+              <div className="flex items-center gap-2 text-accent-foreground/80">
+                <Phone className="w-4 h-4" />
+                <a href="tel:33718116" className="hover:text-primary transition-colors">
+                  (31) 3371-8116
+                </a>
+              </div>
+              <div className="flex items-center gap-2 text-accent-foreground/80">
+                <Phone className="w-4 h-4" />
+                <a href="tel:31999588126" className="hover:text-primary transition-colors">
+                  (31) 99581-8126
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Links Rápidos</h3>
-            <ul className="space-y-2 text-white/70 text-sm">
+            <h3 className="text-lg font-bold mb-4">Links Rápidos</h3>
+            <ul className="space-y-2 text-sm">
               <li>
-                <a href="#servicos" className="hover:text-primary transition-colors">
+                <button
+                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  className="text-accent-foreground/80 hover:text-primary transition-colors"
+                >
+                  Início
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("servicos")}
+                  className="text-accent-foreground/80 hover:text-primary transition-colors"
+                >
                   Serviços
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#sobre" className="hover:text-primary transition-colors">
-                  Quem Somos
-                </a>
+                <button
+                  onClick={() => scrollToSection("sobre")}
+                  className="text-accent-foreground/80 hover:text-primary transition-colors"
+                >
+                  Sobre Nós
+                </button>
               </li>
               <li>
-                <a href="#contato" className="hover:text-primary transition-colors">
+                <button
+                  onClick={() => scrollToSection("contato")}
+                  className="text-accent-foreground/80 hover:text-primary transition-colors"
+                >
                   Contato
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#localizacao" className="hover:text-primary transition-colors">
+                <button
+                  onClick={() => scrollToSection("localizacao")}
+                  className="text-accent-foreground/80 hover:text-primary transition-colors"
+                >
                   Localização
-                </a>
+                </button>
               </li>
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Services */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Contato</h3>
-            <ul className="space-y-3 text-white/70 text-sm">
-              <li className="flex items-center space-x-2">
-                <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+553133718116" className="hover:text-primary transition-colors">
-                  (31) 3371-8126
-                </a>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+5531995818126" className="hover:text-primary transition-colors">
-                  (31) 99581-8126
-                </a>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Mail className="w-4 h-4 text-primary" />
+            <h3 className="text-lg font-bold mb-4">Serviços</h3>
+            <ul className="space-y-2 text-sm text-accent-foreground/80">
+              <li>Aluguel de Caçambas</li>
+              <li>Triagem de Resíduos</li>
+              <li>Transporte de Entulho</li>
+              <li>Consultoria Ambiental</li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h3 className="text-lg font-bold mb-4">Contato</h3>
+            <div className="space-y-3 text-sm">
+              <div className="flex items-start gap-2 text-accent-foreground/80">
+                <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
+                <div>
+                  <p>Belo Horizonte, MG</p>                  
+                  <p className="text-xs">Rua Juarez Teixeira Pinto, 267</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-2 text-accent-foreground/80">
+                <Mail className="w-4 h-4 mt-1 flex-shrink-0" />
                 <a
-                  href="mailto:contato@bhcaçamba.com.br"
+                  href="mailto:contato@bhcacamba.com.br"
                   className="hover:text-primary transition-colors"
                 >
                   contato@bhcacamba.com.br
                 </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Social Media */}
-          <div>
-            <h3 className="font-bold text-lg mb-4">Redes Sociais</h3>
-            <div className="flex space-x-4">
-              {socialLinks.map((social) => {
-                const Icon = social.icon;
-                return (
-                  <a
-                    key={social.label}
-                    href={social.href}
-                    aria-label={social.label}
-                    className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary hover:scale-110 transition-all"
-                  >
-                    <Icon className="w-5 h-5" />
-                  </a>
-                );
-              })}
+              </div>
+              <div className="flex items-start gap-2 text-accent-foreground/80">
+                <Clock className="w-4 h-4 mt-1 flex-shrink-0" />
+                <div>
+                  <p>Seg a Sex: 8h às 18h</p>
+                  <p>Sábado: 8h às 12h</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-8 text-center text-white/60 text-sm">
+        <div className="border-t border-accent-foreground/20 mt-8 pt-8 text-center text-sm text-accent-foreground/70">
           <p>
-            © {currentYear} BH Caçamba. Todos os direitos reservados.
+            © {new Date().getFullYear()} BH Caçamba. Todos os direitos reservados.
+          </p>
+          <p className="mt-2">
+            CNPJ: 00.000.000/0001-00 | Licença Ambiental: 000000
           </p>
         </div>
       </div>
