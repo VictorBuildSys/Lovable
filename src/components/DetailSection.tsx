@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import detailImage from "@/assets/img1.jpg";
+import detailImage from "@/assets/hero-cacambas.jpg";
 
 const DetailSection = () => {
   return (
