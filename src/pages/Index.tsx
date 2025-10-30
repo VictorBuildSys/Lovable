@@ -7,6 +7,9 @@ import Location from "@/components/Location";
 import Footer from "@/components/Footer";
 import WhatsAppButton from '@/components/WhatsAppButton';
 
+import DetailSection from '@/components/DetailSection';
+import WasteInfoSection from "@/components/WasteInfoSection";
+
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -14,7 +17,9 @@ const Index = () => {
       <main>
         <Hero />
         <Services />
-        <About />
+        <About />        
+        <DetailSection />        
+        <WasteInfoSection />
         <Contact />
         <Location />        
       </main>

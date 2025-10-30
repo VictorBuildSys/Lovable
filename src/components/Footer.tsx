@@ -86,10 +86,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Serviços</h3>
             <ul className="space-y-2 text-sm text-accent-foreground/80">
-              <li>Aluguel de Caçambas</li>
+              <li>Locação de caçamba residencial</li>
+              <li>Locação de caçamba comercial</li>
+              <li>Gestão Completa de Resíduos</li>
               <li>Triagem de Resíduos</li>
-              <li>Transporte de Entulho</li>
-              <li>Consultoria Ambiental</li>
+              <li>Entrega rápida e agendada</li>
             </ul>
           </div>
 

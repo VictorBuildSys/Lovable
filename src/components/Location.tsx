@@ -52,16 +52,12 @@ const Location = () => {
               </h3>
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  "Centro",
-                  "Pampulha",
-                  "Savassi",
-                  "Barreiro",
-                  "Venda Nova",
-                  "Norte",
-                  "Oeste",
-                  "Leste",
-                  "Noroeste",
-                  "Nordeste",
+                    "Oeste",
+                    "Centro sul",
+                    "Barreiro",
+                    "Noroeste",
+                    "Leste",
+                    "Pampulha",
                 ].map((region, index) => (
                   <div
                     key={index}

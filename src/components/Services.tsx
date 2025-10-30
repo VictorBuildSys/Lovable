@@ -19,10 +19,10 @@ const Services = () => {
     },
     {
       icon: Recycle,
-      title: "Retirada de entulho",
+      title: "Gestão de Resíduos",
       description:
-        "Serviço completo de coleta e destinação adequada de entulhos de construção, reformas e demolições conforme normas ambientais.",
-      features: ["Coleta programada", "Descarte legal", "Documentação completa"],
+        "Oferecemos soluções profissionais para gerenciamento de resíduos em obras de todos os portes. Nossa equipe especializada garante o descarte adequado e sustentável de materiais.",
+      features: ["Triagem de residuo", "Descarte Legal e Sustentável", "Equipe Profissional"],
     },
     {
       icon: Truck,

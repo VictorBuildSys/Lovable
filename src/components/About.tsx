@@ -4,7 +4,7 @@ const About = () => {
   const highlights = [
     {
       icon: Award,
-      title: "30+ Anos",
+      title: "35+ Anos",
       description: "De experiência no mercado",
     },
     {
