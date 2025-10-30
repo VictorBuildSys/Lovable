@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import detailImage from "@/assets/img1.jpg";
 
@@ -21,7 +20,7 @@ const DetailSection = () => {
 
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent-foreground">
-              Gestão de Resíduos
+              Gestão de Resíduos 
             </h2>
             <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto">
               Oferecemos soluções profissionais para gerenciamento de resíduos em obras de todos os portes. 
