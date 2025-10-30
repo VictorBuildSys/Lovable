@@ -16,7 +16,7 @@ const Index = () => {
         <Services />
         <About />
         <Contact />
-        <Location />
+        <Location />        
       </main>
       <Footer />
       <WhatsAppButton />

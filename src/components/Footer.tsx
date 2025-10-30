@@ -110,7 +110,7 @@ const Footer = () => {
                   href="mailto:contato@bhcacamba.com.br"
                   className="hover:text-primary transition-colors"
                 >
-                  contato@bhcacamba.com.br
+                  bhcacamba@yahoo.com.br
                 </a>
               </div>
               <div className="flex items-start gap-2 text-accent-foreground/80">
@@ -129,7 +129,7 @@ const Footer = () => {
             © {new Date().getFullYear()} BH Caçamba. Todos os direitos reservados.
           </p>
           <p className="mt-2">
-            CNPJ: 00.000.000/0001-00 | Licença Ambiental: 000000
+            CNPJ: 00.689.825/0003-27 | Licença Ambiental: 000000
           </p>
         </div>
       </div>
