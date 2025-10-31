@@ -1,5 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
-import detailImage from "@/assets/hero-cacambas.jpg";
+import detailImage from "@/assets/img2.jpg";
 
 const DetailSection = () => {
   return (
@@ -20,46 +19,21 @@ const DetailSection = () => {
 
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent-foreground">
-              Gestão de Resíduos 
+              Quem Somos
             </h2>
-            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto">
-              Oferecemos soluções profissionais para gerenciamento de resíduos em obras de todos os portes. 
-              Nossa equipe especializada garante o descarte adequado e sustentável de materiais.
+            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto" > 
+                  <strong>Somos a BH Caçamba</strong>  uma empresa especializada em <strong>coleta, transporte e destinação correta de entulhos</strong>, oferecendo soluções práticas e sustentáveis para obras, reformas e limpezas em geral.<br/><br/>
+                  Com anos de experiência no setor, atuamos com <strong>eficiência, segurança e respeito ao meio ambiente</strong>, seguindo todas as normas municipais e ambientais para o descarte de resíduos da construção civil.<br/><br/>
             </p>
-
-            <div className="space-y-4 mb-8">
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="text-primary mt-1 flex-shrink-0" size={24} />
-                <div>
-                  <h3 className="font-semibold mb-1">Descarte Legal e Sustentável</h3>
-                  <p className="text-muted-foreground">
-                    Seguimos todas as normas ambientais para destinação correta dos resíduos
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="text-primary mt-1 flex-shrink-0" size={24} />
-                <div>
-                  <h3 className="font-semibold mb-1">Entrega e Retirada Agendada</h3>
-                  <p className="text-muted-foreground">
-                    Sistema eficiente com horários marcados para máxima conveniência
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-3">
-                <CheckCircle2 className="text-primary mt-1 flex-shrink-0" size={24} />
-                <div>
-                  <h3 className="font-semibold mb-1">Equipe Profissional</h3>
-                  <p className="text-muted-foreground">
-                    Mais de 30 anos de experiência no mercado de construção
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            
+            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto" >
+                  Nosso compromisso é <strong> facilitar o dia a dia dos clientes</strong>, garantindo <strong>pontualidade na entrega e retirada das caçambas</strong>, além de um atendimento ágil e personalizado.<br/><br/>
+            </p>
+            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto" >
+                  Trabalhamos para que cada serviço contribua para uma obra<strong> mais limpa, organizada e consciente</strong>, unindo responsabilidade ambiental e praticidade no manejo de resíduos.<br/><br/>            
+            </p>      
+            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto" >
+                  Escolha a BH Caçamba para uma gestão de resíduos eficiente e sustentável, e faça a diferença na sua obra e no meio ambiente.<br/><br/>      
+            </p>
           </div>
         </div>
       </div>

@@ -5,14 +5,14 @@ const Services = () => {
   const services = [
     {
       icon: Truck,
-      title: "Locação de caçamba residencial",
+      title: "Locação de Caçamba Residencial",
       description:
         "Caçambas ideais para reformas residenciais, limpeza de quintais e pequenas obras. Diversos tamanhos disponíveis para atender sua necessidade.",
       features: ["Diversos tamanhos", "Entrega rápida", "Retirada no prazo"],
     },
     {
       icon: Building2,
-      title: "Locação de caçamba comercial",
+      title: "Locação de Caçamba Comercial",
       description:
         "Soluções para empresas, construtoras e comércios. Caçambas de grande capacidade para obras e gerenciamento de resíduos corporativos.",
       features: ["Alta capacidade", "Atendimento corporativo", "Contratos flexíveis"],
@@ -26,7 +26,7 @@ const Services = () => {
     },
     {
       icon: Truck,
-      title: "Entrega rápida e agendada",
+      title: "Entrega Rápida e Agendada",
       description:
         "Sistema de entrega e retirada com hora marcada. Agilidade e pontualidade para não atrasar sua obra ou projeto.",
       features: ["Horário agendado", "Entrega pontual", "Disponibilidade imediata"],

@@ -9,6 +9,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 
 import DetailSection from '@/components/DetailSection';
 import WasteInfoSection from "@/components/WasteInfoSection";
+import Gallery from "@/components/Gallery";
 
 const Index = () => {
   return (
@@ -18,7 +19,8 @@ const Index = () => {
         <Hero />
         <Services />
         <About />        
-        <DetailSection />        
+        <DetailSection />       
+        <Gallery /> 
         <WasteInfoSection />
         <Contact />
         <Location />        
