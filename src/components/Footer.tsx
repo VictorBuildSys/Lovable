@@ -21,7 +21,7 @@ const Footer = () => {
               <h3  className="text-xl font-bold mb-4">BH Caçamba</h3>
               </div>
             <p className="text-accent-foreground/80 text-sm mb-4">
-              Mais de 30 anos oferecendo soluções em aluguel de caçambas e gerenciamento de resíduos
+              Mais de 35 anos oferecendo soluções em aluguel de caçambas e gerenciamento de resíduos
               em Belo Horizonte.
             </p>
             <div className="flex flex-col gap-2 text-sm">
