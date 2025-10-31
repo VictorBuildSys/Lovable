@@ -13,14 +13,22 @@ const Hero = () => {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
+      className="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+{/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
-    >
+      >
+        {/* <div className="absolute inset-0 bg-secondary/60" /> */}
+      </div>
+
+
       <div className="container-custom section-padding relative z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight animate-fade-in">
@@ -55,7 +63,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center pt-8 text-white">
+          {/* <div className="flex flex-col sm:flex-row gap-8 justify-center items-center pt-8 text-white">
             <div className="text-center">
               <div className="text-4xl font-bold text-secondary-foreground">35+</div>
               <div className="text-sm opacity-80">Anos de Experiência</div>
@@ -70,7 +78,22 @@ const Hero = () => {
               <div className="text-4xl font-bold text-secondary-foreground">Até 24h</div>
               <div className="text-sm opacity-80">Atendimento Rápido</div>
             </div>
+          </div> */}
+           {/* Stats */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+            <div className="text-3xl md:text-4xl font-bold text-white mb-2">35+</div>
+            <div className="text-white/90">Anos de Experiência</div>
           </div>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+            <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+            <div className="text-white/90">Clientes Satisfeitos</div>
+          </div>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+            <div className="text-3xl md:text-4xl font-bold text-white mb-2">Até 24h</div>
+            <div className="text-white/90">Atendimento Rápido</div>
+          </div>
+        </div>
         </div>
       </div>
 

@@ -57,7 +57,7 @@ const Hero = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-            <div className="text-3xl md:text-4xl font-bold text-white mb-2">30+</div>
+            <div className="text-3xl md:text-4xl font-bold text-white mb-2">35+</div>
             <div className="text-white/90">Anos de Experiência</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
