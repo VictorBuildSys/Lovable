@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import logo from '@/assets/logo.png';
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -14,7 +15,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">BH Caçamba</h3>
+            
+              <div className="flex items-center space-x-3"> 
+              <img src={logo} alt="BH Caçamba" className="w-12 h-12" />
+              <h3  className="text-xl font-bold mb-4">BH Caçamba</h3>
+              </div>
             <p className="text-accent-foreground/80 text-sm mb-4">
               Mais de 30 anos oferecendo soluções em aluguel de caçambas e gerenciamento de resíduos
               em Belo Horizonte.

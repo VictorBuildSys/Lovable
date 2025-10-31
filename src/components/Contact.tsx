@@ -42,8 +42,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["contato@bhcacamba.com.br"],
-      action: "mailto:contato@bhcacamba.com.br",
+      details: ["bhcacamba@yahoo.com.br"],
+      action: "mailto:bhcacamba@yahoo.com.br",
     },
     {
       icon: MapPin,
