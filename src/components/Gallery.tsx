@@ -1,14 +1,15 @@
-import gallery1 from "@/assets/img2.jpg";
-import gallery2 from "@/assets/img2.jpg";
-import gallery3 from "@/assets/img2.jpg";
+import gallery1 from "@/assets/img_2.jpg";
+import gallery2 from "@/assets/img_3.jpg";
+import gallery3 from "@/assets/img_4.jpg";
+import gallery4 from "@/assets/img_5.jpg";
 
 const Gallery = () => {
   const images = [
     { src: gallery1, alt: "Renovação Continua" },
     { src: gallery2, alt: "Sustentabilidade em Ação" },
     { src: gallery3, alt: "Meio Ambiente" },
-    { src: gallery1, alt: "Conscientização Ambiental" },
-    { src: gallery2, alt: "Gestão de Resíduos" },
+    { src: gallery4, alt: "Conscientização Ambiental" },
+    { src: gallery1, alt: "Gestão de Resíduos" },
   ];
 
   return (

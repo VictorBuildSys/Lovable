@@ -33,7 +33,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
               Nossa História
             </h2>
-            <div className="space-y-4 text-lg text-muted-foreground">
+            <div className="space-y-4 text-lg text-muted-foreground  text-justify">
               <p>
                 A <span className="font-bold text-primary">BH Caçamba</span> é uma empresa consolidada
                 no mercado de aluguel de caçambas e gerenciamento de resíduos em Belo Horizonte.

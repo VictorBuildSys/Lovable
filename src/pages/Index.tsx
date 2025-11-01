@@ -10,6 +10,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import DetailSection from '@/components/DetailSection';
 import WasteInfoSection from "@/components/WasteInfoSection";
 import Gallery from "@/components/Gallery";
+import Dashboard from "@/components/Dashboard";
 
 const Index = () => {
   return (
@@ -23,7 +24,7 @@ const Index = () => {
         <Gallery /> 
         <WasteInfoSection />
         <Contact />
-        <Location />        
+        <Location />             
       </main>
       <Footer />
       <WhatsAppButton />
