@@ -54,7 +54,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Horário",
-      details: ["Segunda a Sexta: 7h às 17h", "Sábado: 7h às 11h Soente agendamentos."],
+      details: ["Segunda a Sexta: 7h às 17h", "Sábado: 7h às 11h Somente agendamentos."],
       action: null,
     },
   ];
