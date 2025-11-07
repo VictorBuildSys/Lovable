@@ -122,8 +122,8 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-accent-foreground/80">
                 <Clock className="w-4 h-4 mt-1 flex-shrink-0" />
                 <div>
-                  <p>Seg a Sex: 8h às 18h</p>
-                  <p>Sábado: 8h às 12h</p>
+                  <p>Seg a Sex: 7h às 17h</p>
+                  <p>Sábado: 7h às 11h Somente agendamentos.</p>
                 </div>
               </div>
             </div>
