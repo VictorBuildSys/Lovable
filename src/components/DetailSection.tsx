@@ -19,21 +19,17 @@ const DetailSection = () => {
 
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent-foreground">
-              Quem Somos
+              Objetivo
             </h2>
             <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto text-justify" > 
-                  <strong>Somos a BH Caçamba</strong>  uma empresa especializada em <strong>coleta, transporte e destinação correta de entulhos</strong>, oferecendo soluções práticas e sustentáveis para obras, reformas e limpezas em geral.<br/><br/>
-                  Com anos de experiência no setor, atuamos com <strong>eficiência, segurança e respeito ao meio ambiente</strong>, seguindo todas as normas municipais e ambientais para o descarte de resíduos da construção civil.<br/><br/>
+                  Nosso objetivo é tornar o dia a dia do cliente mais simples e eficiente, oferecendo um serviço ágil de coleta e transporte de entulhos com uma <strong>frota moderna e bem equipada de caminhões.</strong><br/><br/>
             </p>
             <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto text-justify" >
-                  Nosso compromisso é <strong> facilitar o dia a dia dos clientes</strong>, garantindo <strong>pontualidade na entrega e retirada das caçambas</strong>, além de um atendimento ágil e personalizado.<br/><br/>
+                  Trabalhamos para garantir <strong>rapidez na entrega e retirada das caçambas,</strong> sempre com segurança e dentro das normas ambientais e municipais. Nossa estrutura logística permite atender diferentes demandas — de pequenas reformas a grandes obras — <strong>com pontualidade e flexibilidade.</strong><br/><br/>
             </p>
             <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto text-justify" >
-                  Trabalhamos para que cada serviço contribua para uma obra<strong> mais limpa, organizada e consciente</strong>, unindo responsabilidade ambiental e praticidade no manejo de resíduos.<br/><br/>            
+                 <strong> Um canteiro de obra limpo e organizado evita acidentes, reduz multas e melhora a colaboração e a produtividade da equipe,</strong> garantindo que o andamento da obra seja mais seguro e eficiente.
             </p>      
-            <p className="text-lg text-accent-foreground/80 max-w-2xl mx-auto text-justify" >
-                  Escolha a BH Caçamba para uma gestão de resíduos eficiente e sustentável, e faça a diferença na sua obra e no meio ambiente.<br/><br/>      
-            </p>
           </div>
         </div>
       </div>
