@@ -39,7 +39,7 @@ const About = () => {
                 no mercado de aluguel de caçambas e gerenciamento de resíduos em Belo Horizonte.
               </p>
               <p>
-                Com <span className="font-bold text-foreground">mais de 30 anos de atuação</span>,
+                Com <span className="font-bold text-foreground">mais de 35 anos de atuação</span>,
                 construímos nossa reputação através da{" "}
                 <span className="font-bold text-foreground">qualidade, pontualidade e confiabilidade</span>{" "}
                 em cada serviço prestado.
