@@ -102,3 +102,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ## Lovable 2
 
 https://lovable.dev/projects/21415b2b-cf60-4ad1-a766-f5a302ad91c8
+
+## Deploy
+
+netlify-registro.br-cloudflare-
+
+https://app.netlify.com/projects/bhcacamba/overview
+
+DAARO448-user tecnico registro.br conta davidrocha7
+
+dns-netlify
+dns1.p02.nsone.net
+dns2.p02.nsone.net
+ip netlifly-54.232.119.62
+
+dns-cloudflare
+izabella.ns.cloudflare.com
+javon.ns.cloudflare.com
+
+nslookup bhcacamba.netlify.app
+nslookup bhcacamba.netlify.app
+
+Registro.br - Davidrocha7
+Cloudflare - Victor
+
+http://bhcacamba.com.br/

@@ -27,8 +27,8 @@ const Footer = () => {
             <div className="flex flex-col gap-2 text-sm">
               <div className="flex items-center gap-2 text-accent-foreground/80">
                 <Phone className="w-4 h-4" />
-                <a href="tel:33718116" className="hover:text-primary transition-colors">
-                  (31) 3371-8116
+                <a href="tel:33718126" className="hover:text-primary transition-colors">
+                  (31) 3371-8126
                 </a>
               </div>
               <div className="flex items-center gap-2 text-accent-foreground/80">
@@ -95,7 +95,7 @@ const Footer = () => {
               <li>Locação de caçamba comercial</li>
               <li>Gestão Completa de Resíduos</li>
               <li>Triagem de Resíduos</li>
-              <li>Entrega rápida e agendada</li>
+              <li>Entrega agendada</li>
             </ul>
           </div>
 
@@ -135,7 +135,7 @@ const Footer = () => {
             © {new Date().getFullYear()} BH Caçamba. Todos os direitos reservados.
           </p>
           <p className="mt-2">
-            CNPJ: 00.689.825/0003-27 | Licença Ambiental: 000000
+            CNPJ: 00.689.825/0001-65
           </p>
         </div>
       </div>
