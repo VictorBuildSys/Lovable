@@ -37,16 +37,17 @@ const Hero = () => {
           
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4 animate-fade-in">
+           <a href="https://wa.me/5531995818126" target="_blank" className="group">
             <Button
               variant="secondary"
               size="lg"
-              onClick={OnClickWatsApp}
+              
               className="text-lg font-semibold px-8 shadow-2xl hover:scale-105 transition-transform"
             >
               <MessageCircleMore className="mr-2 h-5 w-5" />
               
               Solicitar Orçamento
-            </Button>
+            </Button></a>
             <a href="tel:33718126" className="group">
               <Button
                 variant="outline"
